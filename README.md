@@ -2,14 +2,15 @@
 
 ## I. Manipulation de switches et de VLAN
 
- ### 2/ Configuration des VLANs : 
- 
+
+ Le projet ayant été fermé avant de screen / copier les VLAN, ces dernières ont disparu en relancant le projet, je ne peux donc pas prouver que j'ai fait le Lab 1.
  
  
  
  ## II. Manipulation simple de routeurs
  
  
+ Cf topologieLab2.PNG pour la proposition de topologie 
  
  
  ## III. Mise en place d'OSPF
@@ -56,4 +57,4 @@ Routing Protocol is "ospf 1"
 sudo ip route add 10.3.102.0/24 via 10.3.102.254 dev enp0s3
 ```
 
-On fait un pin entre server1 et client1 pour tout vérifier que tout marche ( je n'ai pas screen le ping avant d'éteindre mon pc du coup toutes les ip et et les routes sont parties quand je l'ai rallumé, je ne peux donc pas montrer le ping final, seulement les étapes intermédiaires ). 
+On fait un ping entre server1 et client1 pour tout vérifier que tout marche ( je n'ai pas screen le ping avant d'éteindre mon pc du coup toutes les ip et et les routes sont parties quand je l'ai rallumé, je ne peux donc pas montrer le ping final, seulement les étapes intermédiaires ). 
